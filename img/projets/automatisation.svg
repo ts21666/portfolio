@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" font-family="Consolas, 'Courier New', monospace">
+  <rect width="400" height="270" fill="#f3ebe8"/>
+  <circle cx="45" cy="40" r="70" fill="#ebdfdb"/>
+  <circle cx="370" cy="240" r="70" fill="#ebdfdb"/>
+
+  <!-- terminal PowerShell -->
+  <rect x="30" y="40" width="250" height="170" rx="10" fill="#4a3c41"/>
+  <rect x="30" y="40" width="250" height="24" rx="10" fill="#55444a"/>
+  <rect x="30" y="54" width="250" height="10" fill="#55444a"/>
+  <circle cx="46" cy="52" r="4" fill="#c0645f"/>
+  <circle cx="59" cy="52" r="4" fill="#d4a05a"/>
+  <circle cx="72" cy="52" r="4" fill="#6f9c7d"/>
+  <text x="88" y="56" font-size="10" fill="#dccbc1" font-family="Segoe UI, Arial, sans-serif">PowerShell</text>
+  <g font-size="11">
+    <text x="44" y="86" fill="#dccbc1">PS&gt; <tspan fill="#f5eeeb">Import-Csv users.csv |</tspan></text>
+    <text x="44" y="104" fill="#f5eeeb">  ForEach-Object {</text>
+    <text x="44" y="122" fill="#d9b8c2">    New-ADUser <tspan fill="#f5eeeb">$_.Nom</tspan></text>
+    <text x="44" y="140" fill="#f5eeeb">  }</text>
+    <text x="44" y="162" fill="#8fd19e">✔ 25 comptes créés</text>
+    <text x="44" y="180" fill="#8fd19e">✔ Sauvegarde terminée</text>
+    <text x="44" y="198" fill="#dccbc1">PS&gt; <tspan fill="#f5eeeb">_</tspan></text>
+  </g>
+
+  <!-- engrenages -->
+  <g transform="translate(320 85)" fill="#7a5763">
+    <circle r="26"/>
+    <g>
+      <rect x="-6" y="-36" width="12" height="14" rx="2"/><rect x="-6" y="22" width="12" height="14" rx="2"/>
+      <rect x="-36" y="-6" width="14" height="12" rx="2"/><rect x="22" y="-6" width="14" height="12" rx="2"/>
+      <rect x="-6" y="-36" width="12" height="14" rx="2" transform="rotate(45)"/><rect x="-6" y="22" width="12" height="14" rx="2" transform="rotate(45)"/>
+      <rect x="-36" y="-6" width="14" height="12" rx="2" transform="rotate(45)"/><rect x="22" y="-6" width="14" height="12" rx="2" transform="rotate(45)"/>
+    </g>
+    <circle r="10" fill="#f3ebe8"/>
+  </g>
+  <g transform="translate(355 140)" fill="#b39ea4">
+    <circle r="15"/>
+    <rect x="-4" y="-21" width="8" height="9" rx="1"/><rect x="-4" y="12" width="8" height="9" rx="1"/>
+    <rect x="-21" y="-4" width="9" height="8" rx="1"/><rect x="12" y="-4" width="9" height="8" rx="1"/>
+    <circle r="6" fill="#f3ebe8"/>
+  </g>
+
+  <!-- tâche planifiée -->
+  <g transform="translate(300 175)">
+    <rect width="80" height="62" rx="8" fill="#fbf7f6" stroke="#dccbc1" stroke-width="2"/>
+    <circle cx="24" cy="31" r="15" fill="none" stroke="#55444a" stroke-width="3"/>
+    <path d="M24 22v10l6 4" fill="none" stroke="#55444a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M48 26l5 5 10-10" fill="none" stroke="#6f9c7d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M46 42h22" stroke="#b39ea4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
