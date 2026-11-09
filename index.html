@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ilian ABIDI</title>
+  <meta name="description" content="Portfolio d'Ilian ABIDI, étudiant en BTS SIO option SISR.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barre du haut (mobile uniquement) -->
+  <header class="topbar">
+    <span class="topbar-name">Ilian ABIDI</span>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu"><i class="fa-solid fa-bars"></i></button>
+  </header>
+
+  <!-- ===== Barre latérale ===== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="avatar avatar-small">
+      <span>IA</span>
+      <img src="img/photo.png" alt="Photo d'Ilian ABIDI" onerror="this.remove()">
+    </div>
+    <h2 class="sidebar-name">Ilian ABIDI</h2>
+    <p class="sidebar-role">Étudiant en BTS SIO<br>Option SISR</p>
+
+    <nav class="nav">
+      <a href="#accueil" class="nav-link active"><i class="fa-solid fa-house"></i> Accueil</a>
+      <a href="#profil" class="nav-link"><i class="fa-solid fa-user"></i> À propos</a>
+      <a href="#parcours" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Parcours</a>
+      <a href="#competences" class="nav-link"><i class="fa-solid fa-code"></i> Compétences</a>
+      <a href="#projets" class="nav-link"><i class="fa-solid fa-folder-open"></i> Projets</a>
+      <a href="#projets-scolaires" class="nav-link sub">Projets scolaires</a>
+      <a href="#projets-pro" class="nav-link sub">Projets professionnels</a>
+      <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+
+    <!-- ===== Accueil ===== -->
+    <section id="accueil" class="section hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h1 class="hero-name">Ilian ABIDI</h1>
+          <h2 class="hero-title">Étudiant en informatique<br>Systèmes et réseaux</h2>
+          <p class="hero-sub">1re année BTS SIO • Option SISR</p>
+          <div class="hero-buttons">
+            <a href="#projets" class="btn">Voir les projets</a>
+            <a href="cv/CV.pdf" class="btn" target="_blank">Voir mon CV</a>
+            <a href="#contact" class="btn">Me contacter</a>
+          </div>
+        </div>
+        <div class="avatar avatar-big">
+          <span>IA</span>
+          <img src="img/photo.png" alt="Photo d'Ilian ABIDI" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== À propos ===== -->
+    <section id="profil" class="section alt">
+      <div class="container">
+        <p class="eyebrow">À propos de moi</p>
+        <h2 class="section-title">Profil</h2>
+
+        <div class="profil-grid">
+          <div class="profil-text">
+            <p>
+              Après l'obtention de mon <strong>Bac Pro Vente</strong>, j'ai décidé de poursuivre
+              en <strong>BTS SIO</strong> (Services Informatiques aux Organisations) option SISR
+              (Solutions d'Infrastructure, Systèmes et Réseaux).
+            </p>
+            <p>
+              J'ai choisi cette voie car la <strong>cybersécurité</strong> est un domaine qui me passionne.
+              Je m'intéresse particulièrement au <strong>fonctionnement des cyberattaques</strong> et aux
+              moyens de <strong>protéger les systèmes informatiques</strong> contre ces menaces.
+            </p>
+            <p>
+              Ce qui me plaît, c'est l'aspect technique du métier, l'<strong>analyse des problèmes</strong> et la
+              recherche de solutions, dans un domaine qui évolue sans cesse et où l'on continue d'apprendre.
+            </p>
+            <p>
+              Mon objectif est de poursuivre mes études jusqu'au <strong>Bac+5</strong> afin d'exercer
+              plus tard le métier d'<strong>analyste SOC</strong>.
+            </p>
+          </div>
+
+          <div class="card stage-card">
+            <h3>Recherche de stage</h3>
+            <p>
+              Je suis actuellement à la recherche d'un stage de <strong>4 à 5 semaines</strong> dans les
+              domaines des systèmes et réseaux, à réaliser entre <strong>février et mai 2027</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="card stat">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span class="stat-number">1</span>
+            <span class="stat-label">Projet réalisé</span>
+          </div>
+          <div class="card stat">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span class="stat-number">6</span>
+            <span class="stat-label">Projets à venir</span>
+          </div>
+          <div class="card stat">
+            <i class="fa-solid fa-server"></i>
+            <span class="stat-number">15</span>
+            <span class="stat-label">Outils et technologies</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Parcours ===== -->
+    <section id="parcours" class="section">
+      <div class="container">
+        <p class="eyebrow">Formation &amp; expériences</p>
+        <h2 class="section-title">Parcours</h2>
+
+        <div class="timeline">
+          <div class="tl-item right">
+            <span class="tl-date pill">Sept. 2026 - Aujourd'hui</span>
+            <div class="card tl-card">
+              <h3>1re année BTS SIO - Option SISR</h3>
+              <p class="tl-place">CNED</p>
+              <p>
+                Formation préparant aux métiers de l'administration des systèmes et des réseaux :
+                installation et configuration de serveurs, gestion d'un parc informatique,
+                support utilisateurs et cybersécurité.
+              </p>
+              <button type="button" class="btn btn-block" data-modal="modal-bts">En savoir plus</button>
+            </div>
+          </div>
+
+          <div class="tl-item left">
+            <span class="tl-date pill">Juin 2024</span>
+            <div class="card tl-card">
+              <h3>Bac Pro Vente</h3>
+              <p class="tl-place">Lycée Sonia Delaunay - Cesson</p>
+              <p>
+                Obtention du baccalauréat professionnel Vente : relation client, communication
+                et techniques commerciales.
+              </p>
+            </div>
+          </div>
+
+          <div class="tl-item right">
+            <span class="tl-date pill">Janv. 2020</span>
+            <div class="card tl-card">
+              <h3>Consultant Cybersécurité</h3>
+              <p class="tl-place">Aramis</p>
+              <p>
+                Première expérience dans le domaine de la cybersécurité : sensibilisation aux bonnes
+                pratiques de sécurité et accompagnement sur la protection des systèmes d'information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fenêtre « En savoir plus » du BTS -->
+    <dialog class="modal" id="modal-bts">
+      <div class="modal-header">
+        <h3>BTS SIO - Option SISR</h3>
+        <button type="button" class="modal-close" aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p>
+        Le BTS Services Informatiques aux Organisations (SIO) forme des techniciens supérieurs
+        spécialisés dans le développement d'applications (option SLAM) ou la gestion des systèmes
+        et réseaux (option SISR).
+      </p>
+      <p>
+        L'option <strong>SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</strong> est orientée
+        vers l'installation, la configuration et l'administration des serveurs et des réseaux,
+        la gestion du parc informatique, le support aux utilisateurs et la cybersécurité des infrastructures.
+      </p>
+    </dialog>
+
+    <!-- ===== Compétences ===== -->
+    <section id="competences" class="section alt">
+      <div class="container">
+        <p class="eyebrow">En cours d'acquisition</p>
+        <h2 class="section-title">Compétences</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Systèmes d'exploitation</h3>
+            <div class="skill-cards">
+              <div class="card skill"><i class="fa-brands fa-windows" style="color:#0078d4"></i><span>Windows 11</span></div>
+              <div class="card skill"><i class="fa-solid fa-server" style="color:#00519e"></i><span>Windows Server</span></div>
+              <div class="card skill"><i class="fa-brands fa-debian" style="color:#a80030"></i><span>Debian</span></div>
+              <div class="card skill"><i class="fa-brands fa-ubuntu" style="color:#e95420"></i><span>Ubuntu</span></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Réseaux &amp; infrastructures</h3>
+            <div class="skill-cards">
+              <div class="card skill"><i class="fa-solid fa-network-wired" style="color:#049fd9"></i><span>Cisco IOS</span></div>
+              <div class="card skill"><i class="fa-solid fa-sitemap" style="color:#1a73e8"></i><span>Active Directory</span></div>
+              <div class="card skill"><i class="fa-solid fa-ethernet" style="color:#2e7d32"></i><span>VLAN / TCP-IP</span></div>
+              <div class="card skill"><i class="fa-solid fa-hard-drive" style="color:#ef6c00"></i><span>Sauvegarde</span></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Services &amp; administration</h3>
+            <div class="skill-cards">
+              <div class="card skill"><i class="fa-solid fa-feather-pointed" style="color:#d22128"></i><span>Apache HTTP Server</span></div>
+              <div class="card skill"><i class="fa-solid fa-database" style="color:#c0765a"></i><span>MariaDB</span></div>
+              <div class="card skill"><i class="fa-solid fa-ticket" style="color:#00a1e0"></i><span>GLPI</span></div>
+              <div class="card skill"><i class="fa-solid fa-clipboard-list" style="color:#8e2a8b"></i><span>OCS Inventory</span></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Outils &amp; virtualisation</h3>
+            <div class="skill-cards">
+              <div class="card skill"><i class="fa-solid fa-cube" style="color:#183a61"></i><span>VirtualBox</span></div>
+              <div class="card skill"><i class="fa-solid fa-terminal" style="color:#2671be"></i><span>PowerShell</span></div>
+              <div class="card skill"><i class="fa-brands fa-linux" style="color:#333"></i><span>Bash</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== Projets ===== -->
+    <section id="projets" class="section">
+      <div class="container">
+        <p class="eyebrow">Réalisations</p>
+        <h2 class="section-title">Projets</h2>
+
+        <h3 class="sub-title" id="projets-scolaires">Projets scolaires</h3>
+        <div class="projects-grid">
+          <article class="card project">
+            <img class="project-img" src="img/projets/patrimoine.svg" alt="Illustration parc informatique">
+            <div class="project-body">
+              <span class="project-date">2026 - réalisé</span>
+              <h4>Gérer le patrimoine informatique</h4>
+              <p><strong>Inventaire matériel et logiciel</strong> d'une organisation. Création de <strong>groupes statiques et dynamiques</strong>. Configuration de <strong>partage de fichiers</strong> et de <strong>niveaux d'habilitation</strong>.</p>
+              <div class="tags"><span>OCS Inventory</span><span>VirtualBox</span></div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img class="project-img" src="img/projets/incidents.svg" alt="Illustration support utilisateurs">
+            <div class="project-body">
+              <span class="project-date">2026 - en cours</span>
+              <h4>Gérer les incidents et demandes d'évolution</h4>
+              <p>Création de <strong>VM (Windows 11 et Ubuntu Desktop)</strong>. Ajout d'un ordinateur dans <strong>Active Directory</strong>. Prise en charge de <strong>pannes matérielles et logicielles</strong>. Création de comptes et groupes d'utilisateurs, <strong>autorisations NTFS</strong>.</p>
+              <div class="tags"><span>Windows 11</span><span>Ubuntu</span><span>Active Directory</span></div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img class="project-img" src="img/projets/service.svg" alt="Illustration environnement web Debian">
+            <div class="project-body">
+              <span class="project-date">2026 - à venir</span>
+              <h4>Mettre à disposition un service informatique</h4>
+              <p>À la demande d'un développeur : installation d'un <strong>environnement de développement Web</strong> complet et d'un <strong>environnement de tests</strong> pour une application Web.</p>
+              <div class="tags"><span>Debian</span><span>VirtualBox</span><span>Apache</span><span>MariaDB</span></div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img class="project-img" src="img/projets/reseau.svg" alt="Illustration architecture réseau">
+            <div class="project-body">
+              <span class="project-date">2027 - à venir</span>
+              <h4>Concevoir l'architecture d'un réseau</h4>
+              <p>Mise en place d'un <strong>plan d'adressage IP</strong>, segmentation en <strong>VLAN</strong> et configuration de <strong>commutateurs et routeurs Cisco</strong>.</p>
+              <div class="tags"><span>Cisco IOS</span><span>Packet Tracer</span></div>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img class="project-img" src="img/projets/automatisation.svg" alt="Illustration automatisation des tâches">
+            <div class="project-body">
+              <span class="project-date">2027 - à venir</span>
+              <h4>Automatiser des tâches d'administration</h4>
+              <p>Écriture de <strong>scripts</strong> pour automatiser la création d'utilisateurs, la <strong>sauvegarde</strong> et la <strong>supervision</strong> des postes.</p>
+              <div class="tags"><span>PowerShell</span><span>Bash</span></div>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="sub-title" id="projets-pro">Projets professionnels</h3>
+        <div class="projects-grid">
+          <article class="card project">
+            <img class="project-img" src="img/projets/mediatheque.svg" alt="Illustration : gestion du parc informatique d'une médiathèque">
+            <div class="project-body">
+              <span class="project-date">2027 - à venir</span>
+              <h4>Gestion du parc d'une médiathèque</h4>
+              <p>Prototyper l'infrastructure réseau. Sauvegarder les postes de travail. Gérer le déploiement de l'image système et le clonage des postes de travail.</p>
+              <div class="tags"><span>À définir</span></div>
+              <a href="#" class="more">Plus d'informations</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img class="project-img" src="img/projets/stage.svg" alt="Illustration : projet de stage en entreprise">
+            <div class="project-body">
+              <span class="project-date">2027 - à venir</span>
+              <h4>Projet de stage</h4>
+              <p>Projet qui sera réalisé durant le stage de première année de BTS SIO.</p>
+              <a href="#" class="more">Plus d'informations</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <p class="eyebrow">Échangeons ensemble</p>
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+          <div class="contact-infos">
+            <div class="card contact-item"><i class="fa-solid fa-location-dot"></i> Savigny-le-Temple (Seine-et-Marne)</div>
+            <a class="card contact-item" href="tel:+33776698272"><i class="fa-solid fa-phone"></i> 07 76 69 82 72</a>
+            <a class="card contact-item" href="mailto:ilianabidi@gmail.com"><i class="fa-solid fa-envelope"></i> ilianabidi@gmail.com</a>
+            <a class="card contact-item" href="https://www.linkedin.com/in/ilian-abidi-80497b327/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+            <label for="objet">Objet</label>
+            <input type="text" id="objet" required>
+            <label for="message">Message</label>
+            <textarea id="message" rows="7" required></textarea>
+            <button type="submit" class="btn btn-block">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2026 Ilian ABIDI - BTS SIO option SISR</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

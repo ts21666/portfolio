@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="400" height="270" fill="#f3ebe8"/>
+  <circle cx="360" cy="40" r="70" fill="#ebdfdb"/>
+  <circle cx="40" cy="250" r="70" fill="#ebdfdb"/>
+
+  <!-- baie serveur -->
+  <rect x="30" y="40" width="90" height="200" rx="6" fill="#4a3c41"/>
+  <g fill="#6b5a60">
+    <rect x="40" y="52" width="70" height="20" rx="3"/><rect x="40" y="78" width="70" height="20" rx="3"/>
+    <rect x="40" y="104" width="70" height="20" rx="3"/><rect x="40" y="130" width="70" height="20" rx="3"/>
+    <rect x="40" y="156" width="70" height="20" rx="3"/>
+  </g>
+  <g fill="#8fd19e">
+    <circle cx="100" cy="62" r="2.5"/><circle cx="100" cy="88" r="2.5"/><circle cx="100" cy="114" r="2.5"/>
+    <circle cx="100" cy="140" r="2.5"/><circle cx="100" cy="166" r="2.5"/>
+  </g>
+  <g stroke="#dccbc1" stroke-width="2" stroke-linecap="round">
+    <path d="M48 62h30M48 88h30M48 114h30M48 140h30M48 166h30"/>
+  </g>
+  <rect x="40" y="186" width="70" height="44" rx="3" fill="#55444a"/>
+  <g fill="#d4a05a"><rect x="48" y="196" width="6" height="6"/><rect x="58" y="196" width="6" height="6"/><rect x="68" y="196" width="6" height="6"/><rect x="78" y="196" width="6" height="6"/></g>
+
+  <!-- bureau avec écran -->
+  <rect x="150" y="60" width="140" height="94" rx="7" fill="#55444a"/>
+  <rect x="158" y="68" width="124" height="76" rx="3" fill="#fbf7f6"/>
+  <text x="166" y="83" font-size="9" font-weight="700" fill="#7a5763">Supervision</text>
+  <path d="M166 128l18-14 14 8 18-22 16 12 18-18 14 6" fill="none" stroke="#7a5763" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#6f9c7d"><circle cx="246" cy="80" r="3"/><circle cx="256" cy="80" r="3"/></g>
+  <circle cx="266" cy="80" r="3" fill="#d4a05a"/>
+  <rect x="210" y="154" width="20" height="14" fill="#55444a"/>
+  <rect x="190" y="168" width="60" height="6" rx="3" fill="#55444a"/>
+  <rect x="140" y="182" width="170" height="10" rx="3" fill="#7a5763"/>
+  <rect x="152" y="192" width="8" height="48" fill="#7a5763"/>
+  <rect x="290" y="192" width="8" height="48" fill="#7a5763"/>
+
+  <!-- mallette -->
+  <g transform="translate(305 105)">
+    <rect x="22" y="0" width="36" height="16" rx="5" fill="none" stroke="#4a3c41" stroke-width="5"/>
+    <rect x="0" y="12" width="80" height="56" rx="8" fill="#4a3c41"/>
+    <rect x="0" y="34" width="80" height="4" fill="#55444a"/>
+    <rect x="33" y="30" width="14" height="12" rx="2" fill="#dccbc1"/>
+  </g>
+
+  <!-- badge stagiaire -->
+  <g transform="translate(320 190)">
+    <rect width="62" height="44" rx="6" fill="#fbf7f6" stroke="#dccbc1" stroke-width="2"/>
+    <circle cx="16" cy="18" r="7" fill="#b39ea4"/>
+    <path d="M6 34c2-6 6-8 10-8s8 2 10 8" fill="#b39ea4"/>
+    <path d="M32 14h22M32 22h18M32 30h20" stroke="#7a5763" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

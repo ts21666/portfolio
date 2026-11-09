@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="400" height="270" fill="#f3ebe8"/>
+  <circle cx="70" cy="40" r="60" fill="#ebdfdb"/>
+  <circle cx="350" cy="240" r="80" fill="#ebdfdb"/>
+
+  <!-- liaisons -->
+  <g stroke="#b39ea4" stroke-width="2" stroke-dasharray="5 5" fill="none">
+    <path d="M200 135 L95 75"/>
+    <path d="M200 135 L305 75"/>
+    <path d="M200 135 L95 205"/>
+    <path d="M200 135 L305 205"/>
+  </g>
+
+  <!-- serveur central -->
+  <rect x="170" y="80" width="60" height="110" rx="8" fill="#4a3c41"/>
+  <g fill="#6b5a60">
+    <rect x="178" y="92" width="44" height="18" rx="3"/>
+    <rect x="178" y="116" width="44" height="18" rx="3"/>
+    <rect x="178" y="140" width="44" height="18" rx="3"/>
+  </g>
+  <g fill="#8fd19e"><circle cx="214" cy="101" r="3"/><circle cx="214" cy="125" r="3"/><circle cx="214" cy="149" r="3"/></g>
+  <g stroke="#dccbc1" stroke-width="2"><path d="M184 101h18M184 125h18M184 149h18"/></g>
+  <rect x="160" y="190" width="80" height="6" rx="3" fill="#55444a"/>
+
+  <!-- écran -->
+  <rect x="55" y="45" width="80" height="55" rx="6" fill="#55444a"/>
+  <rect x="61" y="51" width="68" height="43" rx="3" fill="#fbf7f6"/>
+  <rect x="68" y="59" width="30" height="5" rx="2" fill="#b39ea4"/>
+  <rect x="68" y="69" width="50" height="5" rx="2" fill="#dccbc1"/>
+  <rect x="68" y="79" width="40" height="5" rx="2" fill="#dccbc1"/>
+  <rect x="88" y="100" width="14" height="10" fill="#55444a"/>
+  <rect x="78" y="110" width="34" height="5" rx="2" fill="#55444a"/>
+
+  <!-- portable -->
+  <rect x="270" y="50" width="70" height="45" rx="5" fill="#55444a"/>
+  <rect x="276" y="56" width="58" height="33" rx="2" fill="#fbf7f6"/>
+  <path d="M260 95h90l-8 10h-74z" fill="#7a5763"/>
+  <circle cx="305" cy="72" r="9" fill="none" stroke="#7a5763" stroke-width="3"/>
+  <path d="M311 78l6 6" stroke="#7a5763" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- imprimante -->
+  <rect x="62" y="188" width="66" height="34" rx="6" fill="#55444a"/>
+  <rect x="74" y="176" width="42" height="14" rx="2" fill="#fbf7f6"/>
+  <rect x="74" y="212" width="42" height="18" rx="2" fill="#fbf7f6"/>
+  <path d="M80 219h30M80 225h20" stroke="#b39ea4" stroke-width="2"/>
+  <circle cx="118" cy="199" r="3" fill="#8fd19e"/>
+
+  <!-- fiche d'inventaire -->
+  <rect x="275" y="165" width="62" height="78" rx="6" fill="#fbf7f6" stroke="#55444a" stroke-width="3"/>
+  <rect x="292" y="158" width="28" height="12" rx="4" fill="#7a5763"/>
+  <g stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M285 186l4 4 7-8" stroke="#6f9c7d"/>
+    <path d="M285 206l4 4 7-8" stroke="#6f9c7d"/>
+    <path d="M285 226l4 4 7-8" stroke="#6f9c7d"/>
+  </g>
+  <g stroke="#b39ea4" stroke-width="3" stroke-linecap="round">
+    <path d="M302 186h24M302 206h24M302 226h18"/>
+  </g>
+</svg>

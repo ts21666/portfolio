@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="400" height="270" fill="#f3ebe8"/>
+  <circle cx="60" cy="230" r="80" fill="#ebdfdb"/>
+  <circle cx="360" cy="30" r="60" fill="#ebdfdb"/>
+
+  <!-- fenêtre VM Debian -->
+  <rect x="25" y="30" width="190" height="210" rx="10" fill="#4a3c41"/>
+  <circle cx="40" cy="45" r="4" fill="#c0645f"/>
+  <circle cx="53" cy="45" r="4" fill="#d4a05a"/>
+  <circle cx="66" cy="45" r="4" fill="#6f9c7d"/>
+  <text x="80" y="49" font-size="10" fill="#dccbc1">VM Debian</text>
+
+  <g font-size="13" font-weight="700" fill="#4a3c41">
+    <rect x="40" y="64" width="160" height="42" rx="6" fill="#fbf7f6"/>
+    <path d="M58 98c6-12 10-22 12-30 3 10 0 22-12 30z" fill="#c0645f"/>
+    <text x="84" y="84">Apache</text>
+    <text x="84" y="98" font-size="9" font-weight="400" fill="#7a5763">serveur web</text>
+
+    <rect x="40" y="114" width="160" height="42" rx="6" fill="#fbf7f6"/>
+    <ellipse cx="64" cy="124" rx="12" ry="5" fill="#7a5763"/>
+    <path d="M52 124v20c0 3 5 6 12 6s12-3 12-6v-20" fill="#7a5763"/>
+    <ellipse cx="64" cy="134" rx="12" ry="5" fill="none" stroke="#dccbc1" stroke-width="1.5"/>
+    <text x="84" y="134">MariaDB</text>
+    <text x="84" y="148" font-size="9" font-weight="400" fill="#7a5763">base de données</text>
+
+    <rect x="40" y="164" width="160" height="42" rx="6" fill="#fbf7f6"/>
+    <ellipse cx="64" cy="185" rx="15" ry="9" fill="#55444a"/>
+    <text x="55" y="189" font-size="9" fill="#fbf7f6">php</text>
+    <text x="84" y="184">PHP</text>
+    <text x="84" y="198" font-size="9" font-weight="400" fill="#7a5763">langage serveur</text>
+  </g>
+  <rect x="40" y="214" width="60" height="14" rx="7" fill="#7a5763"/>
+  <text x="50" y="224" font-size="9" fill="#fbf7f6">LAMP OK</text>
+
+  <!-- flèche -->
+  <path d="M225 135h40" stroke="#7a5763" stroke-width="5" stroke-linecap="round"/>
+  <path d="M260 124l14 11-14 11z" fill="#7a5763"/>
+
+  <!-- navigateur avec l'application -->
+  <rect x="282" y="70" width="100" height="130" rx="8" fill="#55444a"/>
+  <rect x="288" y="88" width="88" height="106" rx="4" fill="#fbf7f6"/>
+  <circle cx="292" cy="79" r="3" fill="#dccbc1"/>
+  <circle cx="301" cy="79" r="3" fill="#dccbc1"/>
+  <rect x="294" y="95" width="76" height="32" rx="3" fill="#dccbc1"/>
+  <path d="M300 122l14-14 10 10 8-6 14 10z" fill="#b39ea4"/>
+  <circle cx="356" cy="104" r="4" fill="#fbf7f6"/>
+  <rect x="294" y="134" width="60" height="6" rx="3" fill="#b39ea4"/>
+  <rect x="294" y="146" width="76" height="6" rx="3" fill="#dccbc1"/>
+  <rect x="294" y="158" width="68" height="6" rx="3" fill="#dccbc1"/>
+  <rect x="294" y="172" width="34" height="14" rx="4" fill="#7a5763"/>
+  <text x="297" y="225" font-size="11" font-weight="700" fill="#55444a">Appli Web</text>
+</svg>
